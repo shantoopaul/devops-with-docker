@@ -1,0 +1,17 @@
+$ docker container prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+0dd575932a1921fb884299a2381285a036aaad195ff04a8f199356261e8fe0f6
+9959ae297c67f5a7891e8d7b936867e2105ea5fe7703da8372a4b9242f5b9553
+6f96c0ff4a69628de16b24115db20e95da1147d9cf071b061dc9683d23f3dc35
+
+Total reclaimed space: 233.5kB
+$ docker rmi nginx
+Untagged: nginx:latest
+Deleted: sha256:5aca99593157f4ae539a5dec1092a0ad8762f8e2eb1789085a13a0f5622369f6
+$ docker ps -a
+CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+$ docker image ls
+i Info → U In Use
+IMAGE ID DISK USAGE CONTENT SIZE EXTRA
