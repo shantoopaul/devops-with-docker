@@ -1,4 +1,4 @@
-```sh
+```fish
 $ docker container prune
 WARNING! This will remove all stopped containers.
 Are you sure you want to continue? [y/N] y

@@ -1,4 +1,4 @@
-```sh
+```fish
 $ docker run -d --rm --name secret-msg devopsdockeruh/simple-web-service:ubuntu
 7695f4fa26c4e15754bfb6216a98b569c74a5dc0824d861cf0e26a80271ac94a
 $ docker exec -it secret-msg bash

@@ -1,4 +1,4 @@
-```sh
+```fish
 $ docker run -d nginx
 6f96c0ff4a69628de16b24115db20e95da1147d9cf071b061dc9683d23f3dc35
 $ docker run -d nginx

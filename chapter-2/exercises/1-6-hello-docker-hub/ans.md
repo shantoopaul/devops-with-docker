@@ -1,4 +1,4 @@
-```sh
+```fish
 $ docker run -it devopsdockeruh/pull_exercise
 ```
 ```text
