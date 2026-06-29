@@ -1,3 +1,4 @@
+```sh
 $ docker run -d nginx
 6f96c0ff4a69628de16b24115db20e95da1147d9cf071b061dc9683d23f3dc35
 $ docker run -d nginx
@@ -12,3 +13,4 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS   
 0dd575932a19   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute          80/tcp    quirky_wiles
 9959ae297c67   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 9 seconds ago             relaxed_jemison
 6f96c0ff4a69   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 9 seconds ago             priceless_keller
+```

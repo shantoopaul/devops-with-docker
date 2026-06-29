@@ -1,3 +1,4 @@
+```sh
 $ docker container prune
 WARNING! This will remove all stopped containers.
 Are you sure you want to continue? [y/N] y
@@ -15,3 +16,4 @@ CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 $ docker image ls
 i Info → U In Use
 IMAGE ID DISK USAGE CONTENT SIZE EXTRA
+```

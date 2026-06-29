@@ -1,6 +1,9 @@
+```sh
 $ docker pull devopsdockeruh/simple-web-service:ubuntu
 $ docker pull devopsdockeruh/simple-web-service:alpine
 $ docker images
-
+```
+```text
 ans 1: 7.93
 ans 2: 33.7
+```

@@ -1,3 +1,4 @@
+```sh
 $ docker run -it --name terminal-browser ubuntu
 root@247cb277ca86:/# sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
 Input website:
@@ -19,3 +20,4 @@ Searching..
 <hr><center>nginx/1.24.0</center>
 </body>
 </html>
+```
