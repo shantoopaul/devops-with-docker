@@ -1,4 +1,4 @@
-FROM ubuntu:26.04
+FROM node:16-alpine
 
 EXPOSE 5001
 
@@ -6,12 +6,9 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN apt-get update \
-    && apt-get install -y curl \
-    && curl -sL https://deb.nodesource.com/setup_16.x | bash \
-    && apt install -y nodejs \
-    && node -v \
-    && npm -v \
+ENV REACT_APP_BACKEND_URL=http://localhost:8080
+
+RUN apk update \
     && npm install \
     && npm install -g serve \
     && npm run build
