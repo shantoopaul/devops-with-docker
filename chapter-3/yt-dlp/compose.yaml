@@ -1,0 +1,7 @@
+services:
+  yt-dlp-ubuntu:
+    image: shantoopaul/youtube-dl
+    build: .
+    volumes:
+      - .:/mydir
+    container_name: yt-dlp
